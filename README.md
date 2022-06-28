@@ -47,10 +47,10 @@ You'll be prompted for the following information:
 | Variable                 | Description                                        | Default                               | Type      |
 |--------------------------|----------------------------------------------------|---------------------------------------|-----------|
 | `app_name`               | The name of your app                               | `app_name`                            | `string`  |
-| `app_description`        | The description of your application                | ` A new Flutter project.              | `string`  |
+| `app_description`        | The description of your application                | `A new Flutter project.`              | `string`  |
 | `org_name`               | The name of your organization                      | `com.example`                         | `string`  |
 | `use_fvm`                | Whether to use FVM                                 | `false`                               | `boolean` |
-| `flutter_sdk_version`    | Select flutter SDK version (if `use_fvm` is true)  | `stable`                              | `string` |
+| `flutter_sdk_version`    | Select flutter SDK version (if `use_fvm` is true)  | `stable`                              | `string`  |
 
 ## About Mason
 
