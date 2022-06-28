@@ -1,0 +1,32 @@
+{
+    "debug.openDebug": "openOnDebugBreak",
+
+    "dart.previewFlutterUiGuides": true,
+    "dart.previewFlutterUiGuidesCustomTracking": true,
+    "dart.closingLabels": true,
+
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [80],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false,
+    },
+
+    // CMake
+    "cmake.configureOnOpen": false,{{#use_fvm}}
+
+    // Flutter SDK for FVM
+    "dart.flutterSdkPath": ".fvm/flutter_sdk",
+    // Remove .fvm files from search
+    "search.exclude": {
+        "**/.fvm": true
+    },
+    // Remove from file watching
+    "files.watcherExclude": {
+        "**/.fvm": true
+    },{{/use_fvm}}
+}
