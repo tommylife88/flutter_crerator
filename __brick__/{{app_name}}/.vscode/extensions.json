@@ -5,9 +5,6 @@
     // List of extensions which should be recommended for users of this workspace.
     "recommendations": [
         "dart-code.flutter",
-        "nash.awesome-flutter-snippets",
-        "alexisvt.flutter-snippets",
-        "circlecodesolution.ccs-flutter-color",
         "Dart-Code.dart-code"
     ],
     // List of extensions recommended by VS Code that should not be recommended for users of this workspace.

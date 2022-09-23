@@ -15,11 +15,7 @@
         "editor.tabCompletion": "onlySnippets",
         "editor.wordBasedSuggestions": false,
     },
-
-    // CMake
-    "cmake.configureOnOpen": false,{{#use_fvm}}
-
-    // Flutter SDK for FVM
+{{#use_fvm}}    // Flutter SDK for FVM
     "dart.flutterSdkPath": ".fvm/flutter_sdk",
     // Remove .fvm files from search
     "search.exclude": {
